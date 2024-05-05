@@ -1,0 +1,9 @@
+Understanding the Task: My first step was to carefully understand the task requirements. It seemed like I needed to analyze text data extracted from URLs, covering aspects such as sentiment, readability, and word count.
+Selecting Tools: I chose the libraries and tools that best suited the task. Pandas was perfect for data manipulation, BeautifulSoup for web scraping, NLTK for text processing, and regular expressions for string manipulation.
+Data Loading: I began by loading the dataset from an Excel file. This ensured that I had the necessary data to work with.
+Web Scraping: I created a function to scrape relevant text data from the URLs provided in the dataset. This involved using requests to fetch HTML content and BeautifulSoup to parse and extract specific elements.
+Text Preprocessing: I focused on cleaning the text data by converting it to lowercase, removing punctuation, and filtering out stop words. This step aimed to prepare the text for analysis.
+Sentiment Analysis: I calculated positive and negative scores for each text using predefined lists of words. This allowed me to gauge the sentiment of the text.
+Readability Calculation: I computed various readability metrics like the Flesch-Kincaid Grade Level, Fog Index, and Average Sentence Length. These metrics provided insights into the complexity and readability of the text.
+Additional Analysis: I performed additional tasks such as counting complex words, syllable counts per word, and identifying personal pronouns. These tasks enriched the analysis and provided further insights into the text data.
+Data Output: Finally, I stored the processed data along with the calculated metrics in a CSV file.

@@ -1,0 +1,1 @@
+first open file in code editor and install requirement file and store a stopword,master dictionary and input file in same directory as a store a main.py file then run a main.py file it will give a output as a output.csv file in same directory
